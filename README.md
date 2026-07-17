@@ -2,6 +2,16 @@
 
 Repositorio publico exclusivo para artefatos oficiais de distribuicao do Mototake Desktop.
 
+## Estado atual
+
+As versoes `0.2.1` e `0.2.2` sao versoes tecnicas de validacao do mecanismo de atualizacao automatica.
+
+Elas foram assinadas com certificado temporario de teste e nao devem ser instaladas por clientes ou empresas.
+
+A primeira versao comercial do Mototake Desktop sera publicada somente depois da assinatura com certificado confiavel de producao.
+
+## Conteudo permitido
+
 Este repositorio pode conter apenas:
 
 - instaladores `.exe`;
@@ -11,7 +21,9 @@ Este repositorio pode conter apenas:
 - checksums;
 - releases e tags.
 
-Este repositorio nao contem:
+## Conteudo proibido
+
+Este repositorio nunca contem:
 
 - codigo-fonte;
 - credenciais;
@@ -19,6 +31,7 @@ Este repositorio nao contem:
 - senhas;
 - certificados;
 - chaves privadas;
+- arquivos `.env`;
 - dados de clientes;
 - arquivos de banco de dados;
 - logs sensiveis.
